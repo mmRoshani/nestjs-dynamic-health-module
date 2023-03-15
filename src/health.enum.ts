@@ -1,0 +1,13 @@
+export enum Health {
+  HTTP_PING = "HTTP_PING",
+  HTTP_RES = "HTTP_RES",
+  MONGOOSE = "MONGOOSE",
+  //! SEQUELIZE = "10",
+  //! MIKRO_ORM = "000",
+  //! TYPE_ORM = "TYPE_ORM",
+  MICROSERVICE = "MICROSERVICE",
+  GRPC = "GRPC",
+  MEMORY_RSS = "MEMORY_RSS",
+  MEMORY_HEAP = "MEMORY_HEAP",
+  DISK = "DISK",
+}
